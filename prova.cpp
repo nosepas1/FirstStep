@@ -5,7 +5,7 @@ int sum(int* p1, int* p2){
   int suma = *p1 + *p2;
   return suma;
 
-int multiplicar(int* p1, int* p2){
+int multipli(int* p1, int* p2){
   int mult = *p1 * *p2;
   return mult;
 }
