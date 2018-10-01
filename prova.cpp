@@ -22,4 +22,11 @@ int main (){
   int sumar = sum(&n1, &n2);
   cout << sumar;
   return 0;
+
+  int n3, n4;
+  cout << "Entre dos valors diferents: ";
+  cin >> n3 >> n4;
+  int result =  mult(&n3, &n4);
+  cout << result;
+  return 0;
 }
